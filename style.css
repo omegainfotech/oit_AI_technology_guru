@@ -26,12 +26,7 @@ header{
     text-align: center;
     text-decoration: none;
 }
-header .logo img{
-    float: left;
-    width: 10px;
-    height: 10px;
-    padding-top: 20px;
-}
+
 /* header .navbar{
     text-align: center;
 }  */
@@ -107,31 +102,36 @@ header .navbar ul li:hover > ul{
     display: none;
 }
 .aboutAI{
-    width: 60%;
+    width: 92%;
     margin: auto;
-    text-align: left;
+    margin-right: 3%;
+    /* text-align: left; */
     padding-top: 100px;
+    /* display: flex;
+    justify-content: space-between; */
 }
-.img1{
-    float: right;
-    height: 30%;
-    width:25%;
-    padding-top: 10px;
+.firstrow{
+    display: flex;
+    justify-content: space-between;
 }
-.sec2 .img1{
-    padding-top: 50px;
+.sec1 {
+    width: 170%;
 }
-.sec4 .img1{
-    padding-top: 50px;
+.secondrow{
+    display: flex;
+    justify-content: space-between;
+}
+.sec3{
+    width: 260%;
 }
 .head1{
     font-size: 26px;
     font-weight: 600;
     font-family: 'poppins';
-    text-align: left;
+    /* text-align: left; */
 }
 .aboutAI p{
-    width: 70%;
+    width: 90%;
     color: rgb(94, 91, 91);
     font-size: 15px;
     font-weight: 400;
@@ -159,8 +159,8 @@ header .navbar ul li:hover > ul{
 
 }
 .hero-btn:hover{
-    border: 1px solid red ;
-    background: #f44336;
+    border: 1px solid rgb(71, 71, 53) ;
+    background: #e1e487;
     color: #393636;
     transition: 1s;
     font-family: 'poppins';
@@ -169,11 +169,12 @@ header .navbar ul li:hover > ul{
     padding-bottom: 50px;
 }
 .youtube{
-    height:40vh;
-    width:60%;
-    padding: 20px 50px;
-    margin-top: 30px;
+    height:55vh;
+    width:88%;
+    padding: 20px 12px;
+    margin-top: 25px;
     margin-bottom: 10px;
+    padding-top: 5px;
 }
 .sec5{
     width: 82%;
@@ -204,13 +205,23 @@ header .navbar ul li:hover > ul{
     font-weight: 600;
     margin: 10px 0;
 }
-.sec-col p{
+.sec-col img{
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    padding-left: 28px;
+}
+.sec-col .image2{
+    height: 26vh;
+    width: 80%;
+}
+.sec-col h4{
     width: 100%;
-    color: rgb(94, 91, 91);
+    color: rgb(0, 0, 0);
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'poppins';
-    text-align:justify;
+    text-align:center;
     line-height: 22px;
     padding-top: 10px;
 }
@@ -255,12 +266,7 @@ header .navbar ul li:hover > ul{
         padding: 20px; 
        
     }  
-    header .logo img{
-        float: left;
-        width: 10px;
-        height: 10px;
-        padding-top: 10px;
-    }
+    
     .header label{
         display: initial;
        /* float: right;  */
@@ -452,12 +458,12 @@ header .navbar ul li:hover > ul{
     display: none;
 }
 .main1{
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 5px 20px  30px 40px;
     background-color: #cabebe;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 30px;
     
 }
 .row2{
@@ -471,7 +477,7 @@ header .navbar ul li:hover > ul{
    
 }
 .main1-col .img-1{
-    width: 60%;
+    width: 70%;
     align-items: center;
 
     padding: 80px ;
@@ -480,8 +486,9 @@ header .navbar ul li:hover > ul{
     
 }
 .main1-col video{
-    width: 85%;
+    width: 70%;
     padding: 20px;
+    padding-left: 75px;
    
 }
 .main1-col h1{
@@ -521,6 +528,7 @@ header .navbar ul li:hover > ul{
 .main2{
     width: 90%;
     background-color: #cabebe;
+    padding: 5px 20px  30px 40px;
     margin: auto;
     margin-top: 30px;
 }
@@ -776,7 +784,7 @@ header .navbar ul li:hover > ul{
    width: 20%;
    margin-top:30px; 
    margin-left: 10px;
-   margin-bottom: 384vh;
+   margin-bottom: 212vh;
    /* height: 175vh; */
    border-radius: 10px;
    padding: 30px;
@@ -857,7 +865,7 @@ video{
     margin-top: 10px;
     font-weight: 600;
     font-family: 'poppins';
-    color: rgb(40, 38, 38);
+    color: rgb(71, 69, 69);
     font-size: 15px;
 }  
 .footer p{
@@ -874,7 +882,7 @@ video{
     font-family: 'poppins';
     font-size: 13px;
     margin-bottom: 5px;
-}
+} 
 
 
 @media(max-width:700px) {
@@ -934,6 +942,7 @@ video{
 .main4{
     width: 90%;
     background-color: #cabebe;
+    padding: 5px 20px  30px 40px;
     margin: auto;
     margin-top: 30px;
 }
@@ -958,13 +967,16 @@ video{
 .theory p{
     width: 92%;
     color:rgb(94, 91, 91) ;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 500;
     font-family: 'poppins';
     text-align: justify;
     line-height: 22px;
     padding: 30px 10px;
     float: left;
+}
+.theory b{
+    color: #0a0a0a;
 }
 .images4-1{
     width: 50%;
@@ -978,9 +990,10 @@ video{
 }
 .images4-1 .video4-1{
     /* height: 20%; */
-    width: 90%;
+    width: 92%;
     padding: 100px 30px;
     padding-top: 10px;
+    padding-left: 5px ;
 }
 .images4-1 .img4-2{
     height: 15%;
